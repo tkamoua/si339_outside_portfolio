@@ -1,0 +1,15 @@
+html{
+    overflow:hidden;
+}
+body{
+    overflow:hidden;
+    font-family:helve
+}
+div{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+nav{
+    background-color:blue;
+}
