@@ -156,6 +156,7 @@ nav{
     font-family: var(--main-font-family);
     text-transform: uppercase;
     height: 100%;
+    background-color:black;
 
 }
 .no-mobile{
@@ -186,7 +187,7 @@ nav{
     list-style: none;
 }
 .nav-links a{
-    color: white;
+    color: black;
     text-decoration: none;
     letter-spacing: 3px;
     font-size:2.5rem;
@@ -230,7 +231,7 @@ nav{
 
 .nav-active{
     transform: translateY(0%);
-    position:fixed;
+    position:absolute;
     overflow: hidden;
 
 }
@@ -311,7 +312,7 @@ nav{
     text-align:Center;
     margin-top:auto;
     margin-bottom:auto;
-    grid-row-start:2;
+    grid-row-start:1;
     grid-column-start:2;
     color:black;
     
@@ -450,7 +451,7 @@ em{
         transition-property: color, background-color;
       }
       .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-        background-color: var(--main-color-1);
+        background-color: rgb(15, 175, 196);
         color: white;
       }
     
@@ -577,7 +578,7 @@ em{
         background-size: cover;
         background-repeat: no-repeat;
     background-position: center;
-        height:100vh;
+        height:80vh;
         background-attachment: fixed;
   background-position: center;
 
@@ -586,17 +587,18 @@ em{
     .large-web-gradient{
       
         z-index:200;
-        background-image: linear-gradient(to bottom,rgba(236, 235, 155, 0.2), rgb(182, 182, 182) );
+        /* background-image: linear-gradient(to bottom,rgba(236, 235, 155, 0.2), rgb(182, 182, 182) ); */
+        background-color:white;
         background-size: cover;
         display:grid;
         background-repeat: no-repeat;
         background-position: center;
-        height: 100vh;
+        height: 80vh;
         
     }
 .no-grid{
  margin:auto;
-    background-image: linear-gradient(to bottom,rgba(236, 235, 155, 0.2), rgb(182, 182, 182) );
+  
     background-size: cover;
     display:Grid;
     background-repeat: no-repeat;
@@ -622,10 +624,10 @@ em{
         width: 100%;
         height:10rem;
         position: relative;
-        box-shadow: 0 4px 4px -4px;
+        box-shadow: 0 0 10px black;
     
         top: 0;
-        background-color: rgba(0,0,0,.7);
+        background-color: rgba(252, 252, 252, 0.952);
         transform: translateY(0%);
         transition: transform 300ms ease-out ;
         
@@ -658,7 +660,7 @@ em{
     }
     .between-sec{
         height:10rem;
-        background-color:rgb(0, 0, 54);
+        background-color:rgb(4, 167, 189);
         -webkit-box-shadow: 0 0 10px black;
         box-shadow: 0 0 10px black;
         /* background-image: linear-gradient(to bottom, rgba(0,0,0,1),transparent); */
@@ -670,9 +672,9 @@ em{
  
     .desktop-nav{
         z-index:200;
-        position:fixed;
+       
         min-width:100%;
-        height:15rem;
+       
     }
     .desktop-nav-about{
         z-index:200;
