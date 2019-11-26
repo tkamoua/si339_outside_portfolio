@@ -1,0 +1,156 @@
+/*DESKTOP VIEW*/
+@media screen and (min-width: 800px){ 
+
+.container{
+    display: grid; 
+    
+    grid-template-columns: 30px auto auto auto 30px;
+    grid-template-rows: 70px auto auto auto 70px; 
+    
+    grid-row-gap: 15px; 
+    width: 100vw; 
+  }
+
+body{
+    font-family: Arial, serif;
+    font-size: 18px;
+    color: black;
+  
+    background-color:white;
+  }
+
+h1{
+    font-family: "Times New Roman", serif;
+    font-size: 50px;
+    color:black;
+
+    line-height: 1;
+    padding: 25px;
+    text-align: left;
+  }
+
+h2{
+    font-family: "Times New Roman", serif;
+    font-size: 32px;
+    color: black;
+    text-align: left;
+
+    line-height: 1.5;
+  }
+
+p{
+    padding: 20px; 
+    line-height: 30px; 
+    text-align: left;
+  }
+
+.home{
+    /* grid-row-start: 1; */
+    /* grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2; */
+    
+    border: 2px solid black;
+    margin: 10px;
+    
+    width:50%;
+}
+
+  /* Navigation styling next three */
+nav li{
+    display: inline-block;
+    padding-right: 20px;
+  }
+  
+nav a{
+    color: black;
+    text-decoration: none; 
+  }
+  
+.nav{
+    text-align: right;
+    align-self: left;
+    padding: 20px;
+  
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+  }
+
+/* Navigation hover on desktop view  */
+nav a:hover{
+    text-decoration: underline; 
+    color: #928F8F;
+  }
+
+/* Jump to content next three */
+.skip a{
+    background:white;
+    left: 15px;
+    padding: 6px;
+    position: absolute; 
+    top: -40px; 
+    
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+  
+.skip a:focus{
+    position: absolute;
+    top: 0px;
+    transition: auto;
+  }
+  
+*:focus{
+    border: 2px solid red; 
+  }
+
+footer{
+    background-color:#91D9E9;
+    color: black;
+    text-align: center;
+    line-height: 2;
+  
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 5;
+    grid-row-end: -1;   
+    
+    /* padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    bottom: 0px; */
+  }
+
+.contact-info{
+    grid-column-start: 4;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+
+    }   
+
+.contact-image{
+    
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    width: 100%;
+
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.image-text{
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    }
+
+
+}
