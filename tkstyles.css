@@ -156,7 +156,7 @@ nav{
     font-family: var(--main-font-family);
     text-transform: uppercase;
     height: 100%;
-    background-color:black;
+    
 
 }
 .no-mobile{
@@ -477,9 +477,8 @@ em{
 @media (max-width: 799px){
    
     body{
-        background-color:rgb(182, 182, 182);
+        background-color:white;
         z-index: 200;
-        background-image: linear-gradient(to bottom,rgba(236, 235, 155, 0.2), rgb(182, 182, 182) );
         background-size: cover;
         display: grid;
         background-repeat: no-repeat;
@@ -497,6 +496,10 @@ em{
     
     
     }
+    #aboutmetext{
+        color:black;
+         
+      }
     .mobile-white{
         color:black;
     }
