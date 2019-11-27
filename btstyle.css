@@ -24,11 +24,10 @@ nav a{
 }
 
 footer{
-    color:black;
-    background: #0DD3D0;
+    background-color:#91D9E9;
+    color: black;
     text-align: center;
-    padding: 10px;
-    width: 100%;
+    line-height: 2;
 }
 
 iframe{
@@ -48,16 +47,24 @@ iframe{
 .articles{
     display: inline-block;
     width: 40vw; 
-    background: #0DD3D0;
+    background: #91D9E9;
     margin: 10px;
   }
 
 .articles2{
     display: inline-block;
     width: 40vw; 
-    background: #0DD3D0;
+    background: #91D9E9;
     margin: 10px;
+    padding: 10px 0px 0px;
   }
+
+.articles3{
+    display: inline-block;
+    width: 40vw; 
+    background: #91D9E9;
+    margin: 10px;
+}
 
 .medialinks li{
     text-align: left;
