@@ -156,7 +156,7 @@ nav{
     font-family: var(--main-font-family);
     text-transform: uppercase;
     height: 100%;
-    background-color:black;
+    
 
 }
 .no-mobile{
@@ -221,7 +221,7 @@ nav{
 .burger div{
     width: 25px;
     height: 2px;
-    background-color: black;
+    background-color: rgb(4, 167, 189);
     margin:5px;
     transition: all 0.4s ease;
 }
@@ -475,11 +475,13 @@ em{
     height:50vh;
 }
 @media (max-width: 799px){
-   
+    .nav-links a{
+        color: white;
+     
+    }
     body{
-        background-color:rgb(182, 182, 182);
+        background-color:white;
         z-index: 200;
-        background-image: linear-gradient(to bottom,rgba(236, 235, 155, 0.2), rgb(182, 182, 182) );
         background-size: cover;
         display: grid;
         background-repeat: no-repeat;
@@ -497,6 +499,10 @@ em{
     
     
     }
+    #aboutmetext{
+        color:black;
+         
+      }
     .mobile-white{
         color:black;
     }
