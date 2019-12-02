@@ -10,17 +10,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = "stylesheet" href="btstyle.css">
 
-
     <title>Alain Cohn</title>
   </head>
  
   <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <nav>
-      <a href = "index.html">Home</a>
+      <a href="index.html">Home</a>
       <a href="research.html">Research</a>
+      <a href="CV.html">CV</a>
       <a href="teaching.html">Teaching</a>
       <a href="media.html">Media</a>
-      <a href="CV.html">CV</a>
       <a href="contact.html">Contact</a>
     </nav>
 
@@ -28,11 +28,17 @@
         <h1>CV</h1>
     </div>
 
-    <iframe src = "cv.pdf" ></iframe>
+    <div class ="iframe-container">
+      <iframe id = "main" src = "cv.pdf" ></iframe>
+    </div>
+
+    <div class = "download-link">
+        <a href="AlainCohnCV.zip" download>Download CV</a>
+    </div>
     
-    <footer>
-        <p>Alain Cohn <br/>
-          University of Michigan School of Information</p>
-        </footer>
+    <footer class = cv-footer>
+      <p>Alain Cohn      ©2019<br/>
+              Email:      adcohn[at]umich[dot]edu </p>
+      </footer>
   </body>
 </html>
