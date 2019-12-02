@@ -25,7 +25,7 @@ html{
     
 }
 body{
-  background-color:rgb(22, 22, 22);
+  background-color:white;
   
     overflow-x: hidden;
     overflow-y:hidden;
@@ -234,6 +234,9 @@ nav{
     position:absolute;
     overflow: hidden;
 
+}
+li{
+    margin: 5px 0;
 }
 @keyframes navLinkFade{
     from{
@@ -695,6 +698,7 @@ em{
         margin:0 auto;
         overflow:auto;
         width:100%;
+        background-color:black;
     }
 
  .full-height{
