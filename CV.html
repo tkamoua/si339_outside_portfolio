@@ -1,44 +1,141 @@
-<!doctype html>
+
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--cv.html-->
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel = "stylesheet" href="btstyle.css">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel&display=swap"
+      rel="stylesheet"
+    />
     <title>Alain Cohn</title>
+    <link rel = "stylesheet" href = "css/html5reset.css"/>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
- 
+
   <body>
-    <div class="skip"><a href="#main">Skip to Main Content</a></div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="CV.html">CV</a>
-      <a href="teaching.html">Teaching</a>
-      <a href="media.html">Media</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div id="page-container">
+      <div id="content-wrap">
+        <div class="desktop-nav">
+          <div class="container full-height no-margin full-width">
+           
+            <nav class="nav">
+            
+              <ul class="nav-links">
+                <li class="no-mobile">
+                  <a class="hvr-fade"  href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="no-desktop">
+                  <a class=" zero-opacity" href="index.html">Home</a>
+                </li>
+                <li class="no-desktop">
+                  <a class=" close hvr-fade" href="index.html">Home</a>
+                </li>
+                <li><a class="close1 hvr-fade" href="index.html#about">About Me</a></li>
+                <li><a class="close1 hvr-fade" href="research.html">Research</a></li>
+                <li><a class="close2 hvr-fade" href="CV.html">CV</a></li>
+                <li>
+                  <a class="close3 hvr-fade" href="work.html">Work</a>
+                </li>
+                <li>
+                  <a class="close3 hvr-fade" href="media.html">Media</a>
+                  <li>
+                    <a class="close3 hvr-fade" href="contact.html">Contact</a>
+                  </li>
+                </li>
+                <li class="no-desktop">
+                  <a class=" zero-opacity" href="index.html">Home</a>
+                </li>
+                <li class="desktop-icons desktop-none">
+                  <div class="icons">
+                    
+                  </div>
+                </li>
+              </ul>
+              <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+              
+            </nav>
+          </div>
+        </div>
 
-    <div class="header">
-        <h1>CV</h1>
+        <div class="large-web-banner full-height">
+                
+                  <div class="no-grid">
+                        <h1 class = "alainmaintextwork main-text black">CV</h1>
+                        <div class=" secondcol black"></div>
+                         
+                        <div class ="iframe-container">
+                            <iframe title = "cv" src = "cv.pdf" ></iframe>
+                          </div>
+                      
+                          <div class = "image">
+                            <img class = "cvimg" src = images/cv1.jpg>
+                          </div>
+                      
+                          <div class = "image">
+                            <img class = "cvimg" src = images/cv2.jpg>
+                          </div>
+                      
+                          <div class = "image">
+                            <img class = "cvimg" src = images/cv3.jpg>
+                          </div>
+                      
+                          <div class = "image">
+                            <img class = "cvimg" src = images/cv4.jpg>
+                          </div>
+                      
+                          <div class = "image">
+                            <img class = "cvimg" src = images/cv5.jpg>
+                          </div>
+                      
+                          <div class = "download-link">
+                              <a href="AlainCohnCV.zip" download>Download CV</a>
+                          </div>
+                          
+                          <footer class = "footer">
+                            <p>Alain Cohn      ©2019<br/>
+                                    Email:      adcohn[at]umich[dot]edu </p>
+                            </footer>
+                  </div>
+                  
+                  
+                </div>
+             
+              
+
+
+           
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class ="iframe-container">
-      <iframe id = "main" src = "cv.pdf" ></iframe>
-    </div>
-
-    <div class = "download-link">
-        <a href="AlainCohnCV.zip" download>Download CV</a>
-    </div>
-    
-    <footer class = cv-footer>
-      <p>Alain Cohn      ©2019<br/>
-              Email:      adcohn[at]umich[dot]edu </p>
-      </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
   </body>
 </html>
