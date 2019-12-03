@@ -24,6 +24,12 @@ html{
     padding:0;
     
 }
+.contact-h1{
+    font-size:3rem;
+}
+.contact-h2{
+    font-size:2rem;
+}
 body{
   background-color:white;
   
@@ -71,7 +77,7 @@ body{
     --main-black:#000000;
     --main-font-dark-grey: #4d4d4d; 
     --main-footer-bg-color: #141414;
-    --main-color-1: #D14311;
+    --main-color-1: #91D9E9;
     --main-color-2: #FBFF28;
     --main-color-3: #E25D47;
     --main-font-family:  'Montserrat', sans-serif;
@@ -132,7 +138,7 @@ footer{
     grid-column-start:1;
     grid-column-end:4;
     color:black;
-    background-color:#91D9E9;
+    background-color:var(--main-color-1);
     text-align:center;
     bottom:0px;
     width:100%;
@@ -243,7 +249,7 @@ nav{
 .burger div{
     width: 25px;
     height: 2px;
-    background-color:#91D9E9;
+    background-color:var(--main-color-1);
     margin:5px;
     transition: all 0.4s ease;
 }
@@ -442,6 +448,10 @@ em{
     
     color:#D14311;
 }
+a.active-page
+{
+  background-color:var(--main-color-1);
+}
 #custom-font-1{
     font-style: italic;
     
@@ -449,6 +459,10 @@ em{
     text-transform:uppercase;
     font-size:6rem;
 }
+.contact-info{
+    
+    line-height:5rem;
+  }   
 
 @media (min-width: 510px) {
     .mobile-banner{
@@ -481,7 +495,7 @@ em{
         transition-property: color, background-color;
       }
       .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-        background-color:#91D9E9;
+        background-color:var(--main-color-1);
         color: white;
       }
     
@@ -499,6 +513,10 @@ em{
     height:100%;
     border:2px white solid;
     text-align:center;
+    
+}
+em{
+    color:black;
     
 }
 .eightypercent-height{
@@ -523,25 +541,25 @@ em{
     .articles{
         display: block;
         width: 95vw; 
-        background: #91D9E9;
+        background: var(--main-color-1);
     }
 
     .articles2{
         display: block;
         width: 95vw; 
-        background: #91D9E9;
+        background: var(--main-color-1);
     }
 
     .articles3{
         display: block;
         width: 95vw; 
-        background: #91D9E9;
+        background: var(--main-color-1);
     }
 
     .podcasts{
         display: inline-block;
         width: 95vw; 
-        background: #91D9E9;
+        background: var(--main-color-1);
     }
 
     .medialinks li{
@@ -560,7 +578,7 @@ em{
     
     
     .youtubevideo{
-        border: 10px solid #91D9E9;
+        border: 10px solid var(--main-color-1);
         height: 50vh;
         width: 95vw;
     }
@@ -642,15 +660,14 @@ em{
     
     }
     
-    *:focus{
-        border: 2px solid red; 
-      }
+    
     
     .contact-info{
         grid-column-start:2;
-        padding-left:1rem;
+        padding-left:10rem;
+        line-height:5rem;
       }   
-    
+  
     .contact-image{
         width: 100%;
     
@@ -664,7 +681,7 @@ em{
     .contact-logistics{
         grid-column-start: 1;
         text-align:right;
-        padding-right:1rem;
+        padding-right:10rem;
     }
     .title-b{
        
@@ -692,7 +709,7 @@ em{
         grid-column-end:2;
         width: 40vw; 
         
-        background: #91D9E9;
+        background: var(--main-color-1);
         margin: 10px;
         box-shadow: 10px 10px 5px grey;
         vertical-align: top;
@@ -702,7 +719,7 @@ em{
         grid-column-start:2;
         display: inline-block;
     
-        background: #91D9E9;
+        background: var(--main-color-1);
         margin: 10px;
         box-shadow: 10px 10px 5px grey;
         vertical-align: top;
@@ -712,7 +729,7 @@ em{
         grid-row-start:2;
        
         width: 40vw; 
-        background: #91D9E9;
+        background: var(--main-color-1);
         margin: 10px;
         box-shadow: 10px 10px 5px grey;
         vertical-align: top;
@@ -723,7 +740,7 @@ em{
  
         width: 40vw; 
         
-        background: #91D9E9;
+        background: var(--main-color-1);
         margin: 10px;
         box-shadow: 10px 10px 5px grey;
         vertical-align: top;
@@ -756,7 +773,7 @@ em{
     
     
     .youtubevideo{
-        border: 10px solid #91D9E9;
+        border: 10px solid var(--main-color-1);
         width: 60vw;
         height: 80vh;
         box-shadow: 10px 10px 5px grey;
@@ -944,7 +961,7 @@ em{
     }
     .between-sec{
         height:10rem;
-        background-color:#91D9E9;
+        background-color:var(--main-color-1);
         -webkit-box-shadow: 0 0 10px black;
         box-shadow: 0 0 10px black;
         /* background-image: linear-gradient(to bottom, rgba(0,0,0,1),transparent); */
