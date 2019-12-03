@@ -325,14 +325,16 @@ li{
     
 }
 .secondcol{
-    grid-column-start:3;
-    grid-row-start:3;
+    grid-column-start:2;
+    grid-row-start:1;
+    grid-row-end:3;
     text-align:center;
   
 }
 .firstcol{
     grid-column-start:1;
-    grid-row-start:3;
+   
+    grid-row-start:1;
     text-align:center;
     list-style:none;
 }
@@ -343,6 +345,7 @@ li{
 .alainmaintextwork{
     text-align:Center;
     margin-top:auto;
+    padding-top:3rem;
     margin-bottom:auto;
     grid-row-start:1;
     grid-column-start:2;
@@ -942,7 +945,14 @@ em{
 
     }
  
-    
+    .full-width-grid{
+        display:grid;
+        grid-column-start:1;
+        grid-row-start:1;
+        grid-row-end:3;
+        grid-column-end:4;
+        grid-template-columns:1fr 1fr;
+    }
    
     .nav-links li{
         opacity: 1;
