@@ -542,30 +542,39 @@ em{
     }
 
     .articles{
+        margin-top: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
         display: block;
-        width: 95vw; 
+        width: 100vw; 
         background: var(--main-color-1);
     }
 
     .articles2{
+        padding-bottom: 10px;
+        margin-bottom: 30px;
         display: block;
-        width: 95vw; 
+        width: 100vw; 
         background: var(--main-color-1);
     }
 
     .articles3{
+        padding-bottom: 10px;
+        margin-bottom: 30px;
         display: block;
-        width: 95vw; 
+        width: 100vw; 
         background: var(--main-color-1);
     }
 
     .podcasts{
+        margin-bottom: 20px;
         display: inline-block;
-        width: 95vw; 
+        width: 100vw; 
         background: var(--main-color-1);
     }
 
     .medialinks li{
+        list-style-type: none;
         text-align: left;
         margin: 10px 10px;
     }
@@ -583,7 +592,7 @@ em{
     .youtubevideo{
         border: 10px solid var(--main-color-1);
         height: 50vh;
-        width: 95vw;
+        width: 100vw;
     }
     .iframe-container{ /* cv */
         display: none;
@@ -758,6 +767,7 @@ em{
         justify-content:center;
     }
     .medialinks li{
+        list-style-type: none;
         text-align: left;
         margin: 10px 20px;
     }
